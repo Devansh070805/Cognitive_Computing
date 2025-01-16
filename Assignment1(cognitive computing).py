@@ -217,7 +217,7 @@ def checkPrime(num):
     else: 
         return False
 
-if checkPrime(num):
+if checkPrime(toCheckNum):
     print(f"{toCheckNum} is a Prime Number")
 else:
      print(f"{toCheckNum} is not a Prime Number")
