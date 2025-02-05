@@ -1,6 +1,6 @@
 import numpy as np
 
-X = sum(ord(c) for c in 'DK')  # Replace 'DK' with initials
+X = sum(ord(c) for c in 'DK')  
 
 sales = np.array([X, X+50, X+100, X+150, X+200])
 tax_rate = ((X % 5) + 5) / 100
